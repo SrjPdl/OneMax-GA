@@ -1,14 +1,13 @@
-## `1️⃣0️⃣1️⃣0️⃣` OneMax Problem
+## 1️⃣0️⃣1️⃣0️⃣ OneMax Problem
 ### Task:
 Find the bitstring of a given length (N) that maximizes the sum of its digits.
 
-`Formally`
+`Formally`\
+Find a string $\vec x = \\{x_{1}, x_{2},\dots{}, x_{N} \\}$ of length $N$ where $x_{i} \in \{0,1\} $ that maximizes:
 
-Find a string $\vec x = \{x_{1}, x_{2},\dots{}, x_{N} \}$ of length $N$ where $x_{i} \in \{0,1\} $ that maximizes:
+$$F(\vec x) = \sum_{i=1}^{N} x_{i}$$
 
-$F(\vec x) = \sum_{i=1}^{N} x_{i}$
-
-### Example
+### Example:
 For $N = 4$,
 |Bitstring|Sum|
 |-------|---------|
@@ -17,7 +16,7 @@ For $N = 4$,
 |1️⃣0️⃣1️⃣1️⃣|$3$|
 |1️⃣1️⃣1️⃣1️⃣|$4$|
 
-The sum should be $F(\vec x) = x_{1} + x_{2} + x_{3} + x_{4} = 1 + 1 + 1 + 1 = 4$.
+$$F(\vec x) = x_{1} + x_{2} + x_{3} + x_{4} = 1 + 1 + 1 + 1 = 4$$.
 
 ## ⚙ Usage
 ```bash
