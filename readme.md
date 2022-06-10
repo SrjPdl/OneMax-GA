@@ -18,6 +18,8 @@ For $N = 4$,
 
 $$F(\vec x) = x_{1} + x_{2} + x_{3} + x_{4} = 1 + 1 + 1 + 1 = 4$$
 
+The problem is solved using Genetic Algorithm and python framework [DEAP](https://deap.readthedocs.io/en/master/).
+
 ## ⚙ Usage
 ```bash
 git clone https://github.com/SrjPdl/OneMax-GA.git
