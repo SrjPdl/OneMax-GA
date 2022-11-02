@@ -3,7 +3,7 @@
 Find the bitstring of a given length (N) that maximizes the sum of its digits.
 
 `Formally`\
-Find a string $\vec x = \\{x_{1}, x_{2},\dots{}, x_{N} \\}$ of length $N$ where $x_{i} \in \{0,1\} $ that maximizes:
+Find a string $\vec x = \\{x_{1}, x_{2},\dots{}, x_{N} \\}$ of length $N$ where $x_{i}$ in {0,1} that maximizes:
 
 $$F(\vec x) = \sum_{i=1}^{N} x_{i}$$
 
